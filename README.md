@@ -4,8 +4,8 @@ HUMAN FACE RECOGNIZATION USING CNN, WEB BY FLASK (PROTOTYPE)
 please follow directory structure of files after download as below 
 face_recognition_project/
 │
-├── app.py               # Flask application
-├── model.py             # Model training script
+├── app.py               # Flask application                                                                                                                                                                         
+├── model.py             # Model training script                                                                                                                                                                     
 ├── recognize.py         # Real-time recognition script
 ├── capture_images.py    # to capture new member images
 ├── haarcascade_frontalface_default.xml
