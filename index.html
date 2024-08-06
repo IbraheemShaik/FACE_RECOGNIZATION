@@ -1,0 +1,81 @@
+<!-- templates/index.html 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition</title>
+</head>
+<body>
+    <h1>Face Recognition System</h1>
+
+    <form method="POST" action="/">
+        <input type="text" name="name" placeholder="Enter Name" required>
+        <button type="submit">Capture Images</button>
+    </form>
+
+    <form method="POST" action="/train">
+        <button type="submit">Train Model</button>
+    </form>
+
+    <form method="POST" action="/recognize">
+        <button type="submit">Recognize Faces</button>
+    </form>
+</body>
+</html>  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition BY Ibraheem</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+html, body {
+    height: 100%;  
+    width: 100%;  
+    padding: 0;
+    background-image: url("{{ url_for('static', filename='img1111.jpg') }}");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;  
+    font-family: Arial, sans-serif;
+    color: rgb(247, 0, 0);
+}
+
+    </style>
+
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>FACE RECOGNITION BY IBRAHEEM</h1>
+        </header>
+
+
+        <div class="buttons">
+
+            <form method="POST" action="/add_person">
+                <input type="text" name="name" placeholder="Enter Name" required>
+                <button class="btn">Add Person</button>
+            </form>
+
+            <form method="POST" action="/train">
+                <button class="btn">Train Model</button>
+            </form>
+
+            <form method="POST" action="/recognize">
+                <button class="btn">Recognize Faces</button>
+            </form>
+            
+        </div>
+        
+       
+    
+        
+    </div>
+</body>
+</html>
+
