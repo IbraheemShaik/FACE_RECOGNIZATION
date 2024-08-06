@@ -12,11 +12,11 @@ face_recognition_project/
 ├── face_recognition_model.h5                                                                                                                                                                                        
 ├──class_indices                                                                                                                                                                                                     
 ├── templates/                                                                                                                                                                                                       
-│   └── index.html       # HTML for the web interface                                                                                                                                                                
+│        └── index.html       # HTML for the web interface                                                                                                                                                           
 └── static/                                                                                                                                                                                                          
-    └── styles.css       #styles css for html                                                                                                                                                                        
-    └──img1111           #bg image                                                                                                                                                                                   
-    └── captured_images/ # Directory to store captured images                                                                                                                                                                                        
+         └── styles.css       #styles css for html                                                                                                                                                                   
+         └──img1111           #bg image                                                                                                                                                                              
+         └── captured_images/ # Directory to store captured images                                                                                                                                                                                        
 
 
    ***STEPS TO RUN PROJECT***
